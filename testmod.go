@@ -3,6 +3,7 @@ package testmod
 import (
     "errors"
     "fmt" 
+    "github.com/pushlang/testmod/testpkg"
 ) 
 
 // Hi returns a friendly greeting in language lang
@@ -19,4 +20,8 @@ func Hi(name, lang string) (string, error) {
     default:
         return "", errors.New("unknown language")
     }
+}
+
+func Test() {
+   testpkg.Test()
 }
