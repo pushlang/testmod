@@ -3,7 +3,7 @@ package testmod
 import (
     "errors"
     "fmt" 
-    "github.com/pushlang/testmod/testpkg"
+    "github.com/pushlang/testmod/v2/testpkg"
 ) 
 
 // Hi returns a friendly greeting in language lang
